@@ -9,3 +9,7 @@ We can decode to create an instance already in the singleton class OR we can let
 
 Problem statement -
 # Our Car Factory only should have one headQuarter. Create a headquarter class that will create only a single instance no matter how many times we instantiate it.
+
+Javascript Note - 
+~ A constructor can choose what does it want to return; it doesnt have to be a fully instantiated object; We can make it return whatever instance of any class we want;(but it has to be an instance).
+~ Directly depending on the singleton is a bad idea, rather we should provide it as a dependency to the class using it. It makes it easier to then Unit testing.
