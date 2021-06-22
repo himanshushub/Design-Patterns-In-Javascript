@@ -1,4 +1,5 @@
 class HeadQuarterCreator {
+  /* supports creation using both new operator and exposing a method to get the instance */
   static headQuarter = null;
   name = '';
   constructor(name) {
